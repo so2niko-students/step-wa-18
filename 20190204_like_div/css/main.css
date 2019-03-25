@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+
+body{
+	height: 100vh;
+}
+
+.show{
+	background-color: #ae715f;
+	height: 100%;
+}
+
+.descr{
+	background-color: #e38d83;
+	height: 100%;
+/*	padding-top: 25px;*/
+}
+
+.show-top{
+	height: 70%;
+	padding-top: 25px;
+}
+
+.show-bottom{
+	height: 30%;
+	background-color: grey;
+}
+
+.show-bottom_left,.show-bottom_right{
+	height: 100%;
+}
+
+.show-bottom_left{
+	background-color: #626c7a;
+}
+
+.show-bottom_right{
+	background-color: aquamarine;
+}
+
+
+.menu{
+	/*Что-то добавить*/
+}
+
+
+.menu>div{
+	padding: 10px;
+	border: 1px solid white;
+	text-align: center;
+	font: 12px 'Poppins';
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.menu>div:hover{
+	color: #ae715f;
+	background-color: white;
+	font-size: 14px;
+	padding: 8px 10px 9px 10px;
+}
+
+.menu>.txt-left{
+	text-align: left;
+}
+
+/*Logo*/
+.logo{
+	font: 30px 'Poppins';
+	color: white;
+}
+
+.logo-left{
+	text-align: right;
+}
+/*description of tea*/
+.descr-tea_name{
+	font: 24px;
+}

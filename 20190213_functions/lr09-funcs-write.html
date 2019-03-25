@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Генератор Прямоугольника</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="author" content="Sotula Nick">
+	<style>
+		main {
+			width: 90%;
+			margin: 2.5% auto;
+			font: 100%/1.5em Arial, Helvetica, sans-serif;
+		}
+		@media only screen and (min-width: 720px){
+			main{
+				width: 45%;
+			}
+		}
+		table{
+			border-collapse: collapse;
+		}
+		td{
+			border: 1px solid grey;
+			padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<main>
+		<h1>Лабораторная работа 09</h1>
+		<h2>Функции</h2>
+        <p>Пользователь вводит в <code>prompt</code> через пробел три значения(<mark>ширина высота цвет</mark>). Сгенерировать с помощью метода <code>document.write</code> прямоугольник заданной ширины, высоты, цвета.</p>
+        <h4>Пример:</h4>
+        <table>
+        	<tr>
+        		<th>Ввод</th>
+        		<th>Пример</th>
+        	</tr>
+        	<tr>
+        		<td>40 10 black</td>
+        		<td><div style="width: 40px; height: 10px; background-color: black;"></div></td>
+        	</tr>
+        	<tr>
+        		<td>40 -1 white</td>
+        		<td>"Ошибка в данных"</td>
+        	</tr>
+        	<tr>
+        		<td>490 231 33</td>
+        		<td>"Ошибка в данных"</td>
+        	</tr>
+        	<tr>
+        		<td>231 33</td>
+        		<td>"Ошибка в данных"</td>
+        	</tr>
+        </table>
+		<h4>Требования:</h4>
+		<ul>
+			<li>Проверка вводимых пользователем данных.</li>
+			<li>.html файл со встроенным js-скриптом</li>
+		</ul>
+    </main>
+    
+</body>
+
+</html>

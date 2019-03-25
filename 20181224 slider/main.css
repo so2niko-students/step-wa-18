@@ -1,0 +1,54 @@
+.slider{
+    width: 800px;
+    height: 450px;
+    background-color: aliceblue;
+    background-image: url("https://tayniymir.com/wp-content/uploads/2016/12/1-48.jpg");
+    background-size: contain;
+}
+
+.labels{
+    position: relative;
+    top: 50px;
+    left: 270px;
+}
+
+label{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: rgba(22, 33, 200, 0.3);
+}
+
+label:hover{
+    border-color: red;
+}
+
+#in1:checked~.labels>[for=in1],
+#in2:checked~.labels>[for=in2],
+#in3:checked~.labels>[for=in3],
+#in4:checked~.labels>[for=in4],
+#in5:checked~.labels>[for=in5]{
+    background-color: rgba(220, 33, 20, 0.3);
+}
+
+.inputs{
+    display: none;
+}
+
+#in1:checked~.slider{
+    background-image: url("https://tayniymir.com/wp-content/uploads/2016/12/1-48.jpg");
+}
+#in2:checked~.slider{
+    background-image: url("https://jizn.info/wp-content/uploads/2018/01/maxresdefault-2.jpg");
+}
+#in3:checked~.slider{
+    background-image: url("http://babruysk.by/wp-content/uploads/2017/12/746127_e931a22d3e31429eac7c3d7d12060484.jpg");
+}
+#in4:checked~.slider{
+    background-image: url("https://u.livelib.ru/reader/FuschettoStoriettes/o/f48nqazr/o-o.jpeg");
+}
+#in5:checked~.slider{
+    background-image: url("http://2queens.ru/Uploads/sanina_e/3%20-%20disney%20christmas.jpg");
+}

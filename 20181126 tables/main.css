@@ -1,0 +1,26 @@
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    /* margin: -2px; */
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.myTable{
+    display: table;
+    border-collapse: collapse;
+}
+
+.myTr{
+    display: table-row;
+}
+
+.myTd{
+    display: table-cell;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}

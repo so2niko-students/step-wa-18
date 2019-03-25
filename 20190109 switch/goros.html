@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Текстовые девиации</title>
+</head>
+<body>
+    <h1>ПРивет</h1>
+    <script>
+        let day = parseInt(prompt("Введите день рождения(1-365)")),
+            whoAreYou = "БыкоНог";
+
+//         if(day <= 30){
+//             whoAreYou = "Козерог";
+//         }
+//         if(day > 30 && day <= 60){
+//             whoAreYou = "Водолей";
+//         }
+
+        switch(true){
+            case day <= 30:{
+                whoAreYou = "Козерог";
+                break;
+            }
+            case day > 30 && day <= 60:{
+                 whoAreYou = "Водолей";
+                break;
+            }
+            default:{
+                whoAreYou = "Гараж";
+            }
+
+            case day <= 30:{
+                whoAreYou = "Рогокоз";
+                break;
+            }
+        }
+
+        alert(whoAreYou);
+
+
+    </script>
+</body>
+</html>

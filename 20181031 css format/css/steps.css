@@ -1,0 +1,48 @@
+.step{
+  border: 1px solid #333333;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.el1{
+  width: 50px;
+  background-color: red;
+  margin-left: 300px;
+  font-size: 6px;
+}
+.el2{
+  width: 100px;
+  background-color: orange;
+  margin-left: 250px;
+}
+
+.el3{
+  width: 150px;
+  background-color: yellow;
+  margin-left: 200px;
+}
+
+.el4{
+  width: 200px;
+  background-color: green;
+  margin-left: 150px;
+}
+
+.el5{
+  width: 250px;
+  background-color: lightblue;
+  margin-left: 100px;
+}
+
+.el6{
+  width: 300px;
+  background-color: blue;
+  margin-left: 50px;
+}
+
+.el7{
+  width: 350px;
+  background-color: purple;
+}

@@ -1,0 +1,14 @@
+.media{
+	width: 800px;
+	height: 450px;
+	background-color: rgba(212,212,212,0.8)
+}
+.abs{
+	position: absolute;
+	left: 0;
+	top: 300px;
+}
+
+.fa-download{
+	font-size: 30px;
+}

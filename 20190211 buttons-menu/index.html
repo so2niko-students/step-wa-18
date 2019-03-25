@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+    .hide{
+        display: none;
+    }
+
+    .menu{
+        /*Базовый вид*/
+        width: 300px;
+        height: 200px;
+        background-color: blueviolet;
+        border: 1px solid black;
+        /*Настройка положения*/
+        position: absolute;
+        top: -190px;
+        left: 100px;
+        /*Вылет меню*/
+        transition: top 3s;
+        cursor: pointer;
+    }
+
+    .menu:hover{
+        top: 0;
+    }
+
+    /*Стилизация подменю*/
+    .menu li{
+        list-style-type: none;
+        color: white;
+        padding: 5px 15px;
+        border: 1px solid white;
+        font-family: Arial;
+
+    }
+
+    .menu ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li:hover{
+        font-weight: 800;
+        background-color: rgb(93, 16, 165);
+        
+    }
+
+    /*подменю*/
+    .menu-2 li{
+        font-size: 75%;
+        padding: 2px 35px;
+    }
+
+    .menu-2{
+        display: none;
+    }
+
+    #menu-2_show:checked+label+.menu-2{
+        display: block;
+    }
+    /*скрытие стрелочек*/
+    .fa-angle-down{
+        display: none;
+    }
+    #menu-2_show:checked+label .fa-angle-down{
+        display: inline;
+    }
+    #menu-2_show:checked+label .fa-angle-right{
+        display: none;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li>Вена</li>
+            <li>Будапешт</li>
+            <input type="checkbox" class="hide" id="menu-2_show">
+            <label for="menu-2_show">
+                <li>Альпы 
+                    <span>
+                        <i class="fas fa-angle-right"></i>
+                        <i class="fas fa-angle-down"></i>
+                    </span>
+                </li>
+            </label>
+            <ul class="menu-2">
+                <li>Лыжи</li>
+                <li>Молоко</li>
+                <li>Пальмы</li>
+            </ul>
+            <li>Фьорд</li>
+            <li>Ледник</li>
+        </ul>
+    </div>
+
+
+</body>
+</html>

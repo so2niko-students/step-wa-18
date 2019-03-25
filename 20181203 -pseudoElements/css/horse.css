@@ -1,0 +1,53 @@
+.horse{
+   width: 60px;
+   height: 30px; 
+   border-radius: 60px / 30px;
+   transform: rotate(-20deg);
+   position: relative;
+   top: 10px;
+   left: 21px;
+}
+
+.horse::before{
+    content: ' ';
+    display: block;
+    position: relative;
+    top: 10px;
+    left: -15px;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 60px solid;
+    transform: rotate(20deg);
+}
+
+
+.horse::after{
+    content: ' ';
+    display: block;
+    position: relative;
+    top: -10px;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid;
+    transform: rotate(10deg);
+
+}
+
+.horse.black::before,
+.horse.white::before,
+.horse.black::after,
+.horse.white::after{
+    background-color: transparent;
+}
+
+.horse.black::before,.horse.black::after{
+    border-right-color: black;
+}
+
+.horse.white::before,.horse.white::after{
+    border-right-color: #bbb;
+}

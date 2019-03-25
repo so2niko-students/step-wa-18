@@ -1,0 +1,27 @@
+.b,.w{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+body{
+    background-color: black;
+}
+
+.w{
+    background-color: blanchedalmond;
+}
+.b{
+    background-color: lightcoral;
+}
+
+.chessTable{
+    font-size: 0;
+}
+
+.white,.white::before,.white::after{
+    background-color: #bbb;
+}
+
+.black,.black::before,.black::after{
+    background-color: black;
+}

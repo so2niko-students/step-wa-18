@@ -1,0 +1,15 @@
+.menu{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    border-radius: 15px;
+    position: absolute;
+    left: -400px;
+    top: -400px;
+    transition: top 2s, left 2s;
+}
+
+#ch1:checked+.menu{
+    top: 0;
+    left: 0;
+}

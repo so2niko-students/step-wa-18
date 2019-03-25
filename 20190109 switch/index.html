@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Текстовые девиации</title>
+</head>
+<body>
+    <h1>ПРивет</h1>
+    <script>
+        let a = parseInt(prompt("Введите Ааааа")),
+            answer = "";
+
+        switch(a){
+            case 1:
+            case 3:
+            case 5:
+            case 7:{
+                answer = "Нечетные";
+                break;
+            }
+            case 0:
+            case 2:
+            case 4:
+            case 6:
+            case 8:{
+                answer = "Четные";
+                break;
+            }
+
+            default:{
+                answer = "Это вообще что такое? Число? Жаба?";
+                break;
+            }
+        }
+
+        alert(answer);
+
+
+
+    </script>
+</body>
+</html>

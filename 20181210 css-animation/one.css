@@ -1,0 +1,137 @@
+li,div{
+    width: 50px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: chartreuse;
+    list-style-type: none;
+}
+
+/*Ключевые кадры*/
+@keyframes shir_ina{
+    from{
+        width: 50px;
+        background-color: dodgerblue;
+    }
+    to{
+        width: 500px;
+        background-color: chartreuse;
+    }
+}
+
+@keyframes pech_utro{
+    0%{
+        background-color: blue;
+    }
+    30%{
+        background-color: green;
+        transform: rotate(0);
+    }
+    60%{
+        transform: rotate(90deg);
+        background-color: green;
+    }
+    90%{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        transform: rotate(90deg);
+        margin-left: 300px;
+        margin-top: 5px;
+    }
+    100%{
+        width: 10px;
+        height: 10px;
+        transform: rotate(90deg);
+        margin-left: 345px;
+        margin-top: 50px;
+    }
+
+}
+
+div{
+    background-color: blue;
+    margin-left: 300px;
+    width: 100px;
+    height: 100px;
+}
+
+.el1{
+    /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction animation-fill-mode animation-play-state*/
+    animation: shir_ina 20s linear;
+    animation-fill-mode: forwards;
+}
+.el2{
+    animation: shir_ina 20s ease;
+    animation-fill-mode: backwards;
+}
+.el3{
+    animation: shir_ina 20s ease-in;
+    animation-fill-mode: both;
+}
+.el4{
+    animation: shir_ina 20s ease-out;
+}
+.el5{
+    animation: shir_ina 20s ease-in-out;
+}
+.el6{
+    animation: shir_ina 20s cubic-bezier(.56,1.65,.63,-1.22);
+}
+
+.el7{
+    animation: pech_utro 20s ease-out 0s infinite alternate-reverse;
+
+}
+
+.a li{
+    display: inline-block;
+    background-color: firebrick;
+}
+
+@keyframes raz_dva{
+    50%{
+        height: 100px;
+    }
+}
+
+.a li{
+    animation-iteration-count: 5;
+}
+
+.a1{
+    animation: raz_dva 10s linear;
+}
+.a2{
+    animation: raz_dva 10s linear 1s;
+}
+.a3{
+    animation: raz_dva 10s linear 2s;
+}
+.a4{
+    animation: raz_dva 10s linear 3s;
+}
+.a5{
+    animation: raz_dva 10s linear 4s;
+}
+.a6{
+    animation: raz_dva 10s linear 5s;
+}
+.a7{
+    animation: raz_dva 10s linear 6s;
+}
+.a8{
+    animation: raz_dva 10s linear 7s;
+}
+.a9{
+    animation: raz_dva 10s linear 8s;
+}
+.a10{
+    animation: raz_dva 10s linear 9s;
+}
+
+.el li{
+    animation-play-state: paused;
+}
+li:hover{
+    animation-play-state: running;
+}

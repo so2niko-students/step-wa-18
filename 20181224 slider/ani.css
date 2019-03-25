@@ -1,0 +1,35 @@
+.slider>img{
+    position: absolute;
+    opacity: 0;
+}
+
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    5%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+}
+
+.slider>img:nth-child(1){
+    animation: ani1 25s infinite linear;
+}
+.slider>img:nth-child(2){
+    animation: ani1 25s infinite 4s linear;
+}
+.slider>img:nth-child(3){
+    animation: ani1 25s infinite 8s linear;
+}
+.slider>img:nth-child(4){
+    animation: ani1 25s infinite 12s linear;
+}
+.slider>img:nth-child(5){
+    animation: ani1 25s infinite 16s linear;
+}

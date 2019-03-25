@@ -1,0 +1,44 @@
+body{
+    background-image: url('../img/forest.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+section{
+    width: 70vw;
+    color: white;
+    font-size: 22px;
+    margin-left: 15vw;
+}
+
+p{
+    margin: 33px 0;
+}
+
+.up{
+   font-size: 40px;
+   font-family: Arial; 
+   text-decoration: none;
+   font-weight: 800;
+   color: white;
+}
+
+#last{
+    color: red;
+}
+
+.deer{
+    border-bottom-left-radius: 50%;
+    filter: brightness(5);
+}
+
+.human{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    background-image: url('https://www.web2generators.com/img/sprite-sample.png');
+    background-position-x: -172.5px; 
+}

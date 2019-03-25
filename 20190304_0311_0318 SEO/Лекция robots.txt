@@ -1,0 +1,44 @@
+User agent: *
+
+Disallow: /admin/
+Allow: /admin/images/
+Disallow: */o/*
+Disallow: */b/*
+Disallow: */a/*
+Disallow: */p/*
+
+https://pampik.com/category/odnorazovyie-podguzniki
+https://pampik.com/category/odnorazovyie-podguzniki/o/1441
+https://pampik.com/category/odnorazovyie-podguzniki/b/43/o/1
+https://pampik.com/category/odnorazovyie-podguzniki/a/10349
+https://pampik.com/category/odnorazovyie-podguzniki/p/26-1019
+
+
+Disallow: /admin/
+Disallow: *?page=*
+Disallow: *?sort=*
+
+https://toys.com.ua/konstruktory-dlja-detey?sort=price
+https://toys.com.ua/konstruktory-dlja-detey?sort=price.desc&color=13&size=xxl
+https://toys.com.ua/konstruktory-dlja-detey?page=x
+
+http://spsad.com.ua/upload/iblock/034/dekorativnye-travy-miskantusy_2017.pdf
+
+Disallow: *.pdf
+
+https://svit-matrasiv.com.ua/
+
+User agent:*
+
+Disallow: *?page=*
+Disallow: */?filter=*
+
+
+ÄÇ http://aquarodos.ua
+
+
+
+
+
+
+

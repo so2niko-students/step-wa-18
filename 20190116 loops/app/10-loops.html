@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru-UA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sotula Nick">
+    <meta name="description" content="Step Dnipro HomeWork Web Course->JS">
+    <title>DZ-JS-10</title>
+    <style>
+        body {
+            padding: 15px 20px;
+            font-family: sans-serif;
+        }
+        
+        section {
+            margin: 15px;
+            border-left: 15px solid rgb(166, 194, 166);
+            padding-left: 15px;
+        }
+        
+        code {
+            font-size: 150%;
+            text-shadow: 1px 1px 5px dimgrey;
+        }
+        
+        main {
+            width: 600px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+
+        h3{
+            font-size: 150%;
+        }
+        
+        .examples{
+            border-collapse: collapse;
+        }
+        
+        .examples td{
+            border: 1px solid green;
+            padding: 7px;
+        }
+        
+        pre{
+            font-family: cursive;
+        }
+
+        h4{
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        h4+p{
+            margin-top: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Домашнее задание №10</h1>
+
+        <section>
+            <h3>1 - Рисование в консоли. Начало.</h3>
+            <p>Создайте веб-приложение, в котором пользователь вводит ширину и символ. Вывести в консоль линию заданной ширины заданным символом
+               </p>
+            <h4>Входные данные:</h4>
+            <p>Число - целое число от 1 до 20</p>
+            <p>Число - целое число от 1 до 20</p>
+            <h4>Выходные данные:</h4>
+            <p>Текст - текстовое описание времени окончания в виде hh:mm</p>
+            <h4>Примеры:</h4>
+            <details>
+                <summary>Развернуть</summary>
+
+                <table class="examples">
+                    <tr>
+                        <td>#</td>
+                        <td>IN</td>
+                        <td>OUT</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>"10:35"</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>3.09</td>
+                        <td>"11:35"</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>"Текст3434"</td>
+                        <td>"Ошибка. Введите число от 1 до 10"</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>"11"</td>
+                        <td>"Ошибка. Введите число от 1 до 10"</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>-5</td>
+                        <td>"Ошибка. Введите число от 1 до 10"</td>
+                    </tr>
+                </table>
+            </details>
+        </section>
+        <section>
+            <h3>2 - Температурный помощник.</h3>
+            <p>Создайте веб-приложение, которое переводит градусы в Цельсиях в Фаренгейты. 
+            </p>
+            <h4>Входные данные:</h4>
+            <p>Число - градусы Цельсия</p>
+            <h4>Выходные данные:</h4>
+            <p>Число - градусы Фаренгейта</p>
+            <h4>Примеры:</h4>
+            <details>
+                <summary>Развернуть</summary>
+
+                <table class="examples">
+                    <tr>
+                        <td>#</td>
+                        <td>IN</td>
+                        <td>OUT</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>10</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>40</td>
+                        <td>104</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>"два"</td>
+                        <td>"Ошибка. Введите число"</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>-100</td>
+                        <td>-148</td>
+                    </tr>
+                </table>
+            </details>
+        </section>
+        <section>
+            <h3>3 - Опять Саймон.</h3>
+            <p>Саймон написал код. Саймон уверен, что код в порядке. Но код не работает. Исправь ошибки, допущенные Саймоном.</p>
+            <h4>Входные данные:</h4>
+            <p>Текст - имя черепахи.</p>
+            <h4>Выходные данные:</h4>
+            <p>Текст - Результат опроса</p>
+            <h4>Примеры:</h4>
+            <details>
+                <summary>Развернуть</summary>
+                   
+                <table class="examples">
+                    <tr>
+                        <td>#</td>
+                        <td>IN</td>
+                        <td>OUT</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>"Донателло"</td>
+                        <td>"Посох Бо"</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>"Донателло2"</td>
+                        <td>"Автомат"</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>"Тортилла"</td>
+                        <td>"Автомат"</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>"Рафаэль"</td>
+                        <td>"Пара сай"</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>54541</td>
+                        <td>"Автомат"</td>
+                    </tr>
+                </table>
+            </details>
+            <h4>Код Саймона:</h4>
+            <details>
+                    <summary>Развернуть код</summary>
+            <pre>
+//Какое ты оружие используешь, земноводное?
+
+let turtle = prompt("Введите черепашку: Донателло, Микеланджело, Рафаэль, Леонардо"),
+    answ = "Автомат";
+
+switch(answ){
+    case "Донателло"{
+    answ = "Посох Бо";
+    break;
+    }
+    case "Микеланджело": {
+    answ = "Нунчаки";
+    break;
+    }
+    case "Рафаэль": {
+    answ = "Пара сай";
+    }
+    case "Леонардо": {
+    answ = "Катана";
+    break;
+    }
+}
+
+alert(answ);
+            </pre>
+            </details>
+        </section>
+        <h3>Формат работы</h3>
+        <ul>
+            <li>Файлы  с первым заданием - <ins>lessons.html</ins>  <ins>lessonsApp.js</ins></li>
+            <li>Файлы со вторым заданием - <ins>cel.html</ins>  <ins>celApp.js</ins></li>
+            <li>Файлы со третим заданием - <ins>simon.html</ins>  <ins>simonApp.js</ins></li>
+        </ul>
+    </main>
+</body>
+
+</html>

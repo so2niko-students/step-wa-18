@@ -1,0 +1,44 @@
+Ures agent: *
+
+Disallow: /admin/
+Allow: /admin/img/
+
+Disallow: /files/file.doc
+Disallow: *.doc (pdf,xml,csv)
+
+Disallow: */o/*
+Disallow: */p/*
+Disallow: */b/*
+Disallow: */a/*
+
+https://pampik.com/category/odnorazovyie-podguzniki/o/5
+https://pampik.com/category/odnorazovyie-podguzniki/o/5/b/20
+https://pampik.com/category/odnorazovyie-podguzniki/o/5-422/
+https://pampik.com/category/odnorazovyie-podguzniki/b/20
+https://pampik.com/category/odnorazovyie-podguzniki/p/1847-2558
+https://pampik.com/category/odnorazovyie-podguzniki/a/12617
+
+Disallow: *&limit=*
+Disallow: */limit=*
+Disallow: */price=*
+Disallow: *&hit-filter=*
+Disallow: */hit-filter=*
+Disallow: *&stars-filter=*
+Disallow: /stars-filter=*
+Disallow: *&vozrast-filter=*
+Disallow: /vozrast-filter=*
+
+/price=-2500&limit=24
+/price=-2500&hit-filter=1&limit=24
+/price=-2500&stars-filter=5&hit-filter=1&limit=24
+/price=-2500&brand-filter=nikko&stars-filter=5&hit-filter=1&limit=24
+/price=-2500&brand-filter=nikko&stars-filter=5&hit-filter=1&vozrast-filter=8;9;10;11;12;13&limit=24
+/price=-2500&brand-filter=nikko&stars-filter=5&hit-filter=1&vozrast-filter=8;9;10;11;12;13&pol-filter=dlya-malchikov&limit=24
+
+BeamUsUp
+Wildsharkseo
+netpeak spider
+
+
+
+

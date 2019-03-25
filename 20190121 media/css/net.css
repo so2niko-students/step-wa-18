@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+   width: 100%;
+   font-size: 0;
+}
+.col{
+    border:1px solid black;
+    min-height: 25px;
+    display: inline-block;
+}
+
+.col-1{
+    width: 8.33%;
+    background-color: aquamarine;
+}
+.col-2{
+    width: 16.66%;
+    background-color: cadetblue;
+}
+.col-3{
+    width: 25%;
+    background-color: chartreuse;
+}
+.col-4{
+    width: 33.33%;
+    background-color: coral;
+}
+.col-5{
+    width: 41.65%;
+    background-color: chocolate;
+}
+.col-6{
+    width: 50%;
+    background-color: blueviolet;
+}
+.col-7{
+    width: 58.33%;
+    background-color: brown;
+}
+.col-8{
+    width: 66.66%;
+    background-color: crimson;
+}
+.col-9{
+    width: 75%;
+    background-color: darkblue;
+}
+.col-10{
+    width: 83.33%;
+    background-color: orange;
+}
+.col-11{
+    width: 91.67%;
+    background-color: darkgoldenrod;
+}
+.col-12{
+    width: 100%;
+    background-color: darkgreen;
+}
