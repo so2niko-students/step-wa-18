@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+main img{
+    position: absolute;
+}
+
+.cathImg{
+    border: 2px dotted aqua;
+}
